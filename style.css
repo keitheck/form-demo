@@ -1,0 +1,45 @@
+/*  BASE STYLES */
+
+body {
+  font-family: helvetica;
+}
+
+input[type="text"] {
+  border: solid 1px #000;
+  padding: 8px 18px;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  background: green;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px 30px;
+  margin-left: 170px;
+  font-size: 24px;
+  font-weight:bold;
+}
+
+form {
+  margin: 50px;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+table {
+  margin: 50px;
+}
+
+thead {
+  background: #999;
+}
+
+td, th {
+  border: solid 1px #000;
+  padding: 10px 20px;
+
+
+}
