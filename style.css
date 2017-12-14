@@ -1,7 +1,7 @@
 /*  BASE STYLES */
 
 body {
-  font:
+  font-family: helvetica;
 }
 
 input[type="text"] {
@@ -12,16 +12,25 @@ input[type="text"] {
 
 button {
   border: none;
-  background: #000;
-  border-radius: 3px;
+  background: green;
+  border-radius: 10px;
   color: #fff;
-  padding: 4px 12px;
+  padding: 15px 30px;
+  margin-left: 170px;
+  font-size: 24px;
+  font-weight:bold;
+}
 
-
+form {
+  margin: 50px;
 }
 
 fieldset {
   padding: 20px;
+}
+
+table {
+  margin: 50px;
 }
 
 thead {
@@ -30,5 +39,7 @@ thead {
 
 td, th {
   border: solid 1px #000;
+  padding: 10px 20px;
+
 
 }
